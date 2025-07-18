@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Profile</string>
+    <string name="week_24_of_40">Week 24 of 40</string>
+    <string name="you_re_24_weeks_pregnant_baby_is_growing_beautifully">You\'re 24 weeks pregnant – baby is growing beautifully!</string>
+    <string name="hello_sarah">Hello, Sarah! 🤍</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_diagnosis">Dignosis</string>
+
+    <string name="title_prediction">Prediction</string>
+
+
+    <!--        <string name="app_name">PregnaView</string>-->
+    <string name="medical_setup_title">Medical Information Setup</string>
+    <string name="medical_setup_subtitle">Please provide accurate medical information for personalized pregnancy monitoring</string>
+
+    <string name="personal_info_section">Personal Information</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="dob_hint">Date of Birth</string>
+
+    <string name="biometrics_section">Biometrics</string>
+    <string name="pre_pregnancy_weight_hint">Weight (before pregnancy)</string>
+    <string name="current_weight_hint">Current Weight</string>
+    <string name="height_hint">Height</string>
+    <string name="blood_group_hint">Blood Group</string>
+
+    <string name="pregnancy_info_section">Pregnancy Information</string>
+    <string name="lmp_date_hint">Last Menstrual Period (LMP) Date</string>
+    <string name="edd_hint">Expected Due Date</string>
+    <string name="gestational_age_hint">Current Gestational Age</string>
+    <string name="weeks_gestation">%d weeks</string>
+
+    <string name="medical_history_section">Medical History</string>
+    <string name="diabetes_label">Diabetes</string>
+    <string name="hypertension_label">Hypertension</string>
+    <string name="pcos_label">PCOS</string>
+    <string name="thyroid_label">Thyroid</string>
+    <string name="family_history_hint">Family History (e.g., Diabetes, Hypertension)</string>
+
+    <string name="lifestyle_section">Lifestyle</string>
+    <string name="smoker_label">Do you smoke?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="previous_complications_hint">Previous Pregnancy Complications</string>
+    <string name="medications_hint">Current Medications</string>
+
+    <string name="submit_button_text">Complete Medical Setup</string>
+
+    <string name="title_settings">Settings</string>
+
+</resources>

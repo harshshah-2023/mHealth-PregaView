@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Symptom Checkboxes -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Symptoms:"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/nauseaCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nausea"/>
+
+        <CheckBox
+            android:id="@+id/vomitingCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vomiting"/>
+
+        <!-- Add all 10 symptoms similarly -->
+        <CheckBox
+            android:id="@+id/backPainCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back Pain"/>
+
+        <CheckBox
+            android:id="@+id/headacheCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Headache"/>
+
+        <CheckBox
+            android:id="@+id/swellingCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swelling"/>
+
+        <CheckBox
+            android:id="@+id/blurredVisionCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blurred Vision"/>
+
+        <CheckBox
+            android:id="@+id/hbpCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="High Blood Pressure"/>
+
+        <CheckBox
+            android:id="@+id/dizzinessCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dizziness"/>
+
+        <CheckBox
+            android:id="@+id/fatigueCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fatigue"/>
+
+        <CheckBox
+            android:id="@+id/abdominalPainCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abdominal Pain"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnDiagnose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Check Diagnosis"/>
+
+        <!-- Result Display -->
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>

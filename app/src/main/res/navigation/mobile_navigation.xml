@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">  <!-- Changed to home as start -->
+
+    <!-- Add Home Fragment -->
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_home_to_schedule"
+            app:destination="@id/scheduleFragment" />
+
+        <action
+            android:id="@+id/action_home_to_dashboard"
+            app:destination="@id/navigation_dashboard" />
+
+    </fragment>
+
+    <!-- Existing Dashboard Fragment -->
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.myapplication.ui.healthoverview.HealthOverviewFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_health_overview">
+
+        <action
+            android:id="@+id/action_dashboard_to_healthInputFragment"
+            app:destination="@id/healthDataInputFragment" />
+        <action
+            android:id="@+id/action_overviewtoRecommendation"
+            app:destination="@id/connectSuggestionFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.myapplication.ui.profile.ProfileFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_profile">
+
+        <action
+            android:id="@+id/action_dashboard_to_healthInputFragment"
+            app:destination="@id/healthDataInputFragment" />
+        <action
+            android:id="@+id/action_topospatrm"
+            app:destination="@id/connectPostpartum" />
+
+
+    </fragment>
+
+
+    <fragment android:id="@+id/navigation_prediction"
+        android:name="com.example.myapplication.ui.prediction.PredictionFragment"
+        android:label="@string/title_prediction"
+        tools:layout="@layout/fragment_prediction">
+        <action
+            android:id="@+id/action_prediction_to_postpartum"
+            app:destination="@id/connectPostpartum" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.example.myapplication.ui.appointments.ScheduleAppointmentFragment"
+        android:label="Schedule Appointment" />
+
+
+
+    <fragment
+        android:id="@+id/connectSuggestionFragment"
+        android:name="com.example.myapplication.ui.recommendation.RecommendationsFragment"
+        android:label="recommendation fragment" />
+    <fragment
+        android:id="@+id/connectPostpartum"
+        android:name="com.example.myapplication.Postpartum.PostpartumPredictionFragment"
+        android:label="postpartum fragment" />
+
+
+    <!-- Existing Health Input Fragment -->
+    <fragment
+        android:id="@+id/healthDataInputFragment"
+        android:name="com.example.myapplication.ui.healthdatainput.HealthDataInputFragment"
+        android:label="Health Input"
+        tools:layout="@layout/fragment_health_data_input" />
+
+
+
+</navigation>

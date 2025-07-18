@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "641270507707",
+    "project_id": "pregaview-96b7e",
+    "storage_bucket": "pregaview-96b7e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641270507707:android:7dae93950778caca95619e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3V1XlQM_K5lslPVSMDKVUGs6HbwPMDs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
