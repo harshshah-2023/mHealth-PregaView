@@ -176,7 +176,8 @@ python app.py
 
 | Name      | Role                              |
 | --------- | --------------------------------- |
-| Your Name | Lead Developer & System Architect |
+| Aditi Bhoir | Machine Learning & Model Training Lead |
+| Harsh Shah | Web Application & System Integration Lead |
 
 ---
 
