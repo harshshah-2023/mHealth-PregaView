@@ -29,7 +29,7 @@ The solution bridges the gap in maternal care, especially in low-resource settin
 ✔ Remote monitoring
 
 ---
----
+
 ❗ Problem Statement
 ---
 
@@ -44,7 +44,7 @@ Awareness of early warning symptoms
 
 Pregaview helps solve this by enabling early identification and real-time decision support, improving clinical outcomes and reducing emergency situations.
 
----
+
 ---
 
 ## 🚀 System Architecture
@@ -132,6 +132,7 @@ Multilingual support for broader usage
 
 Advanced dashboards for doctors & caregivers
 
+---
 ## 💻 Installation & Setup
 
 ### 1️⃣ Clone the Repository
