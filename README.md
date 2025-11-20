@@ -11,6 +11,7 @@
 
 ## 📌 Overview
 
+
 **Pregaview** is a smart maternal healthcare decision-support system designed to **detect early risks in pregnancy** through continuous monitoring of physiological data and clinical symptoms.
 
 It helps in the early detection of:
@@ -27,6 +28,22 @@ The solution bridges the gap in maternal care, especially in low-resource settin
 ✔ Clinical-grade risk classification
 ✔ Remote monitoring
 
+---
+
+##❗ Problem Statement
+
+Maternal deaths continue to rise due to late diagnosis of pregnancy-related complications.
+Many expecting mothers lack:
+
+Continuous monitoring
+
+Timely access to hospitals
+
+Awareness of early warning symptoms
+
+Pregaview helps solve this by enabling early identification and real-time decision support, improving clinical outcomes and reducing emergency situations.
+
+---
 ---
 
 ## 🚀 System Architecture
@@ -79,6 +96,45 @@ Pregaview is composed of:
   [Firebase Alerts & Monitoring]
 ```
 
+---
+---
+
+## 📊 Results & Impact
+
+Predicts pregnancy risks using 14+ clinical parameters
+---
+
+Helps in reducing emergency referrals
+---
+
+Designed for rural and remote monitoring
+---
+
+Enables structured triaging and prioritization
+---
+
+Improves clinical decision-making for healthcare workers
+---
+---
+
+## 🔮 Future Enhancements
+
+Integration with wearable IoT sensors
+---
+
+Tele-consultation support
+---
+
+Backend deployment on AWS / Azure
+---
+
+Addition of more AI/ML risk models
+---
+
+Multilingual support for broader usage
+---
+
+Advanced dashboards for doctors & caregivers
 ---
 
 ## 💻 Installation & Setup
