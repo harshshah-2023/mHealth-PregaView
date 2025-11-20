@@ -111,7 +111,6 @@ python app.py
 ![WhatsApp Image 2025-11-15 at 11 21 47 AM](https://github.com/user-attachments/assets/b35d00b1-c006-4367-bb07-2bf326cf7ebe)
 ![WhatsApp Image 2025-11-15 at 11 21 47 AM (1)](https://github.com/user-attachments/assets/ed7a9e14-3a84-4aa9-9f7a-e8d61025ea5c)
 ![WhatsApp Image 2025-11-15 at 11 24 01 AM](https://github.com/user-attachments/assets/320b19f4-de7c-410e-88ac-728321c32ed1)
-![WhatsApp Image 2025-11-15 at 11 21 49 AM](https://github.com/user-attachments/assets/090787d7-9430-45a0-89ca-0945d5863f0a)
 ![WhatsApp Image 2025-11-15 at 11 21 49 AM (1)](https://github.com/user-attachments/assets/642e92cf-b61d-4394-a130-f30f624e2f2b)
 ![WhatsApp Image 2025-11-15 at 11 21 48 AM](https://github.com/user-attachments/assets/38bfe131-4455-44a0-a617-7020ca5ca77d)
 ![WhatsApp Image 2025-11-15 at 11 21 48 AM (1)](https://github.com/user-attachments/assets/d9b17add-a119-41b2-819d-4fc5a054e2b1)
